@@ -4,7 +4,10 @@ commandes powershell
 
  kubectl create deployment second-deployment --image essaadia/repos_exo1
  kubectl get pods
+
  minikube dashboard
+ 
+ 
  kubectl expose deployment/second-deployment --type LoadBalancer --port 80
  kubectl get svc
  minikube service second-deployment
